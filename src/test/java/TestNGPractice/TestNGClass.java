@@ -75,8 +75,12 @@ public class TestNGClass {
     public void TestMethod10(){
         System.out.println("Test Method 10");
     }
-    @Test(priority = 10, groups = "smoke", enabled = true)
-    public void TestMethod11(){
+    @Test(priority = 11, groups = "smoke", enabled = true)
+    public void TestMethod12(){
         System.out.println("Test Method 11");
+    }
+    @Test(priority = 12, groups = "smoke", enabled = true)
+    public void TestMethod11(){
+        System.out.println("Test Method 12");
     }
 }
